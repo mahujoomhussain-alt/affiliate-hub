@@ -1,1 +1,1 @@
-https://mahujoomhussain-alt.github.io/maldives-affiliate-hub/
+https://mahujoomhussain-alt.github.io/affiliate-hub/
