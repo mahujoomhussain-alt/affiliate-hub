@@ -1715,3 +1715,152 @@ overflow-x: auto;
 scroll-snap-type: x mandatory;
 min-height: 240px;
 padding: 18px;
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mahjoom Digital — Trip.com Maldives Deals</title>
+  <meta name="description" content="Swipe through curated Trip.com deals for Maldives resorts. Clean links, fast booking, and Telegram updates." />
+  <meta name="theme-color" content="#0b132b" />
+  <style>
+    :root {
+      --bg: #0b132b;
+      --ink: #e6f1ff;
+      --muted: #9fb6d8;
+      --accent: #00e0b8;
+      --accent2: #5cf0cf;
+      --stroke: rgba(255,255,255,.14);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif;
+      background: linear-gradient(180deg, var(--bg), #071022 70%);
+      color: var(--ink);
+    }
+    header, main, footer {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      font-size: clamp(28px, 5vw, 42px);
+      margin: 20px 0 10px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--muted);
+    }
+    .rail {
+      display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: 85%;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      gap: 16px;
+      padding: 20px 0;
+    }
+    .card {
+      scroll-snap-align: start;
+      background: rgba(255,255,255,.04);
+      border: 1px solid var(--stroke);
+      border-radius: 16px;
+      padding: 18px;
+      min-height: 220px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 20px;
+    }
+    .card p {
+      margin: 0 0 12px;
+      font-size: 14px;
+    }
+    .cta {
+      display: inline-block;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      color: #042b24;
+      padding: 10px 16px;
+      border-radius: 12px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 6px 18px rgba(0,224,184,.35);
+      transition: transform .2s ease;
+    }
+    .cta:hover {
+      transform: translateY(-2px);
+    }
+    .buttons {
+      margin-top: 20px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .ghost {
+      background: rgba(255,255,255,.05);
+      border: 1px solid var(--stroke);
+      color: var(--ink);
+      padding: 10px 16px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      font-size: 12px;
+      color: #89a6cf;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Trip.com Maldives Deals — Powered by Mahjoom Digital</h1>
+    <p>Welcome to your swipeable resort hub. We hand-pick Maldives stays and deliver clean Trip.com links with fast booking and transparent tracking. No clutter, no tricks — just low rates and reef-ready escapes.</p>
+  </header>
+
+  <main>
+    <div class="rail">
+      <div class="card">
+        <h3>Embudu Village Resort</h3>
+        <p>Soft sands, easy reef, and just 20 minutes by speedboat. A perfect start for your Maldives escape.</p>
+        <a class="cta" href="https://www.trip.com/hotels/emboodhoo-hotel-detail-6305843/embudu-village-resort/?Allianceid=7098470&SID=260839769&trip_sub1=Sunny%20side%20of%20trip&trip_sub3=D5456922" target="_blank">Book on Trip.com</a>
+      </div>
+      <div class="card">
+        <h3>Budget → Boutique</h3>
+        <p>Compare garden rooms and water villas. Same ocean, different rhythm — your call.</p>
+        <a class="cta" href="https://www.trip.com/hotels/emboodhoo-hotel-detail-6305843/embudu-village-resort/?Allianceid=7098470&SID=260839769&trip_sub1=Sunny%20side%20of%20trip&trip_sub3=D5456922" target="_blank">Browse live rates</a>
+      </div>
+      <div class="card">
+        <h3>Snorkel‑first islands</h3>
+        <p>Clear entries, gentle currents, night sparkles. We surface listings with real‑world ease.</p>
+        <a class="cta" href="https://www.trip.com/hotels/emboodhoo-hotel-detail-6305843/embudu-village-resort/?Allianceid=7098470&SID=260839769&trip_sub1=Sunny%20side%20of%20trip&trip_sub3=D5456922" target="_blank">See reef picks</a>
+      </div>
+      <div class="card">
+        <h3>Last‑minute calm</h3>
+        <p>Solid availability, fast confirmations, and transfers that keep it simple.</p>
+        <a class="cta" href="https://www.trip.com/hotels/emboodhoo-hotel-detail-6305843/embudu-village-resort/?Allianceid=7098470&SID=260839769&trip_sub1=Sunny%20side%20of%20trip&trip_sub3=D5456922" target="_blank">Find a fast check‑in</a>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <a class="ghost" href="https://t.me/MahjoomDigital" target="_blank">Join Telegram</a>
+      <a class="ghost" href="mailto:you@example.com?subject=Resort%20Request">Request a resort check</a>
+    </div>
+
+    <p style="margin-top:20px;">Disclosure: We may earn a commission when you book via our Trip.com links. Your price stays the same.</p>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Mahjoom Digital Travel Deals • <a href="https://t.me/MahjoomDigital" target="_blank">@MahjoomDigital</a>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+  </html>
